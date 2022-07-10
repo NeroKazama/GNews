@@ -1,0 +1,110 @@
+body {
+    background-color: #212121 !important;
+}
+
+.logo {
+    border-bottom: 4px solid #93D35A;
+}
+
+.sections {
+    margin-top: 3rem;
+}
+
+.sections-one>h1 {
+    font-size: 3.5rem;
+}
+
+.sections-one>h1>b:nth-child(3) {
+    color: yellowgreen;
+}
+
+.sections-third {
+    margin-top: 10rem;
+}
+
+.white {
+    color: white;
+}
+
+.nav-bar {
+    position: fixed;
+    height: 60px;
+    width: 100%;
+    top: 0;
+    z-index: 9999;
+    background-color: #212121 !important;
+}
+
+.nav-bar-s-btn {
+    display: none;
+}
+
+#background {
+    position: absolute;
+    top: -5%;
+    left: 51%;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    overflow: hidden;
+    color: yellowgreen;
+    transform: rotate(-20deg);
+}
+
+#background2 {
+    top: 36%;
+    left: -10px;
+    z-index: -1;
+    overflow: hidden;
+    color: yellowgreen;
+    transform: rotate(20deg);
+    position: absolute;
+    font-size: 3rem;
+}
+
+.login {
+    background-color: #494949;
+    color: white;
+    margin-top: 10rem;
+}
+
+.profile-tab {
+    height: 50px;
+    border: 1px solid #494949;
+    border-bottom: 0;
+    border-radius: 2px;
+    padding: 0.5rem;
+    color: #fff;
+    margin: 0px 1px -1px 1px;
+    cursor: pointer;
+}
+
+.profile-page {
+    height: 800px;
+    border: 1px solid #494949;
+    border-radius: 2px;
+    padding: 0.5rem;
+    color: #fff;
+    margin: 1px;
+}
+
+.active-tab {
+    color: #000;
+    background-color: #fff;
+    box-shadow: 0 1.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.table {
+    color: #fff;
+    list-style-type: none;
+}
+
+.table a {
+    color: rgb(29, 29, 29);
+    background-color: rgb(211, 211, 211);
+}
+
+.table a:hover {
+    color: white;
+    background-color: rgb(37, 37, 37);
+}
